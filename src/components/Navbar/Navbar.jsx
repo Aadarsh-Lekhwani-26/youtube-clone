@@ -4,9 +4,9 @@ import styles from "./Navbar.module.css";
 const Navbar = () => {
   return (
     <nav className={styles.nav}>
-      <h2>MyTube</h2>
+      <h2>StreamVault</h2>
 
-      <input type="text" placeholder="Search..." />
+      <input type="text" placeholder="Type to search" />
 
       <div>
         <Link to="/">Home</Link>
