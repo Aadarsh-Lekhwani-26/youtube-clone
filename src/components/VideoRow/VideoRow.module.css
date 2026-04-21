@@ -1,0 +1,25 @@
+.container {
+  margin: 20px 0;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.row::-webkit-scrollbar {
+  display: none;
+}
+
+.loadMore {
+  display: block;
+  margin: 15px auto;
+  padding: 8px 16px;
+  cursor: pointer;
+}

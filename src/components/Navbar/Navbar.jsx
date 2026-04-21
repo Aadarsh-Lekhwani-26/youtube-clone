@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+import styles from "./Navbar.module.css";
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className={styles.nav}>
       <h2>MyTube</h2>
 
       <input type="text" placeholder="Search..." />

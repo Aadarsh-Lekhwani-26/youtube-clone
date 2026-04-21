@@ -1,5 +1,5 @@
-const LoadMoreButton = () => {
-  return <button>Load More</button>;
+const LoadMoreButton = ({ onClick }) => {
+  return <button onClick={onClick}>Load More</button>;
 };
 
 export default LoadMoreButton;

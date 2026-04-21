@@ -1,0 +1,14 @@
+.card {
+  width: 220px;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 14px;
+  margin-top: 5px;
+}
