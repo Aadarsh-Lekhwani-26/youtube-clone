@@ -6,11 +6,12 @@
   padding: 15px;
   background: #111;
   color: white;
+  align-items: center;
 }
 
 .nav input {
-  width: 450px;
-  padding: 6px;
+  width: 100%;
+  padding: 5px;
 }
 
 .nav a {

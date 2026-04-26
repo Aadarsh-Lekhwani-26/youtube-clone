@@ -4,11 +4,12 @@ import styles from "./Navbar.module.css";
 const Navbar = () => {
   return (
     <nav className={styles.nav}>
-      <h2 className="text-rose-500 text-2xl">StreamVault</h2>
+      <h2 className="text-rose-500 text-3xl">StreamVault</h2>
 
       <div className="flex">
-      <input type="text" placeholder="Type to search" className="text-xl rounded-bl-3xl rounded-tl-3xl bg-rose-500 border border-white"/>
-      <button className=" w-9 text-4xl rounded-tr-3xl rounded-br-3xl text-white bg-rose-500 p-3 border border-white hover:cursor-pointer ml-3" >⌕</button>
+      <button className=" w-9 h-9 text-4xl rounded-tl-3xl rounded-bl-3xl text-[rgb(247,157,173)] bg-rose-500 border border-white border-r-0 " >⌕</button>
+      <input type="text" placeholder="Type to search" className=" h-9 bg-rose-500 border border-white border-l-0"/>
+      <button className=" w-17 h-9 text-4xl rounded-tr-3xl rounded-br-3xl  text-white bg-rose-500 border border-white hover:cursor-pointer ml-3 active:bg-rose-700" >⌕</button>
       </div>
 
       <div>
